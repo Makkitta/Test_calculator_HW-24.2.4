@@ -1,0 +1,36 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы с данными (если не нужны в репозитории)
+*.db
+*.sqlite3
+
+# Файлы окружения (никогда не коммитьте!)
+.env
+.secrets
+config.ini
